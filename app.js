@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 // Root Route
 app.get("/", (req, res) => {
-  res.send("Welcome to DevOps Demo Application for my friends!");
+  res.send("Welcome to DevOps Demo Application for my friends - Hello!");
 });
 
 // Health Check Route
